@@ -23,24 +23,8 @@ A smart and minimal full-stack web app that helps users rewrite their notes into
 
 ---
 
-## 📁 Folder Structure
+<img width="594" height="590" alt="image" src="https://github.com/user-attachments/assets/6fb5f9ab-975e-4099-b499-3f06f56e90d7" />
 
-/ai-note
-├── app.js
-├── backend/
-│ ├── db.js
-│ ├── models/
-│ ├── routes/
-│ └── .env (ignored)
-├── public/
-│ ├── index.html
-│ └── script.js
-├── .gitignore
-├── README.md
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -52,29 +36,21 @@ cd ai-note-rewriter
 npm install
 🔑 Create a .env file inside backend/ with your API keys:
 
-ini
-Copy
-Edit
+
 MONGO_URI=your_mongo_connection_string
 HF_API_KEY=your_huggingface_key
+
 🧪 How to Run
-bash
-Copy
-Edit
 # Run the app
 npx nodemon app.js
 Then open your browser and go to:
 
-arduino
-Copy
-Edit
 http://localhost:5000
 Use Postman or frontend to send a POST request to:
 
-bash
-Copy
-Edit
 /api/notes/rewrite
+
+
 💡 Future Plans
 Add user login/signup
 
